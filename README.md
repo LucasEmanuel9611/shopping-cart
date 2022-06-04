@@ -2,9 +2,9 @@
 
  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/home.png" alt="home desktop img"/>
   <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/cart.png" alt="cart img "/>
-  <div> 
-  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/home-mobile.png" alt="Home mobile mobie"/>
-  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/cart-mobile.png" alt="Cart mobile img"/>
+  <div align="center" > 
+  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/home-mobile.png" height="400"   alt="Home mobile mobie"/>
+  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/cart-mobile.png" height="400"  alt="Cart mobile img"/>
  </div>
 
 ## 🧪 Tecnologias Utlizadas
@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [React](https://reactjs.org)
 - [Json Server](https://www.npmjs.com/package/json-server)
 - [TypeScript](https://www.typescriptlang.org/)
-- [Styled Components]((https://styled-components.com/)
+- [Styled Components](https://styled-components.com/)
 
 ##  💻 Como executar
 
