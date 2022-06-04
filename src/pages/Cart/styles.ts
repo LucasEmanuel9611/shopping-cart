@@ -1,16 +1,27 @@
-import styled from 'styled-components';
-import { darken, lighten } from 'polished';
+import styled from "styled-components";
+import { darken, lighten } from "polished";
 
 export const Container = styled.div`
-  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: 5px;
+
+  padding: 20px 15px;
   background: #fff;
   border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 30px;
 
   footer {
     margin-top: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* @media (max-width: 830px) {
+      flex-direction: column;
+    } */
 
     button {
       background: #7159c1;
@@ -23,19 +34,57 @@ export const Container = styled.div`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, "#7159c1")};
       }
     }
   }
 `;
 
 export const ProductTable = styled.table`
-  width: 100%;
+  .column-table-area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qnt-area-mobile {
+    margin-top: 10px;
+  }
+
+  .price-total-unique-product {
+      font-size: 18px;
+      color: #333;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-right: 8px;
+    }
+
+  .price-area-mobile {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    span {
+      margin-top: 18px;
+    }
+
+    div {
+      display: flex;
+      align-self: center;
+      margin-top: 30px;
+    }
+
+   
+  }
 
   thead th {
     color: #999;
     text-align: left;
     padding: 12px;
+  }
+
+  tr {
+    /* background-color: red; */
   }
 
   tbody td {
@@ -84,13 +133,13 @@ export const ProductTable = styled.table`
 
     &:hover {
       svg {
-        color: ${darken(0.06, '#7159c1')};
+        color: ${darken(0.06, "#7159c1")};
       }
     }
 
     &:disabled {
       svg {
-        color: ${lighten(0.25, '#7159c1')};
+        color: ${lighten(0.25, "#7159c1")};
         cursor: not-allowed;
       }
     }

@@ -1,22 +1,36 @@
-import styled from 'styled-components';
-import { darken } from 'polished';
+import styled from "styled-components";
+import { darken } from "polished";
 
 export const ProductList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 5px;
+  justify-content: center;
+  overflow: hidden;
+  max-width: 100%;
+
+  @media (max-width: 418px) {
+    justify-content: center;
+  }
 
   li {
     display: flex;
     flex-direction: column;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 30px 10px 30px 10px;
     padding: 20px;
+    min-width: 200px;
+    width: 23%;
+
+    @media (max-width: 830px) {
+      min-width: 170px;
+    }
 
     img {
       align-self: center;
-      max-width: 250px;
+      max-width: 100%;
     }
 
     > strong {
@@ -45,7 +59,7 @@ export const ProductList = styled.ul`
       transition: background 0.2s;
 
       &:hover {
-        background: ${darken(0.06, '#7159c1')};
+        background: ${darken(0.06, "#7159c1")};
       }
 
       div {
