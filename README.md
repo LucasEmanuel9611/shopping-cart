@@ -22,7 +22,7 @@ Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
 $ git clone https://github.com/LucasEmanuel9611/shopping-cart.git
-$ cd NLW6-letmeask
+$ cd shopping-cart
 ```
 
 Para iniciá-lo, siga os passos abaixo:
