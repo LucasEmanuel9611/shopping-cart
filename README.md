@@ -1,10 +1,10 @@
 <center>  <h1>Rocket Shoes</h1> </center>
 
- <img src="https://github.com/LucasEmanuel9611/NLW6-letmeask/blob/master/src/imgs/home.png" alt="home desktop img"/>
-  <img src="https://github.com/LucasEmanuel9611/NLW6-letmeask/blob/master/src/imgs/cart.png" alt="cart img "/>
+ <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/home.png" alt="home desktop img"/>
+  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/cart.png" alt="cart img "/>
   <div> 
-  <img src="https://github.com/LucasEmanuel9611/NLW6-letmeask/blob/master/src/imgs/home-mobile.png" alt="Home mobile mobie"/>
-  <img src="https://github.com/LucasEmanuel9611/NLW6-letmeask/blob/master/src/imgs/cart-mobile.png" alt="Cart mobile img"/>
+  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/home-mobile.png" alt="Home mobile mobie"/>
+  <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/cart-mobile.png" alt="Cart mobile img"/>
 
 ## 🧪 Tecnologias Utlizadas
 
