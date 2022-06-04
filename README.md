@@ -5,6 +5,7 @@
   <div> 
   <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/home-mobile.png" alt="Home mobile mobie"/>
   <img src="https://github.com/LucasEmanuel9611/shopping-cart/blob/master/src/imgs/cart-mobile.png" alt="Cart mobile img"/>
+ </div>
 
 ## 🧪 Tecnologias Utlizadas
 
@@ -41,7 +42,7 @@ $ npm start
 ⚠️ É necessário iniciar a fake api com json server
 
 ```bash
-# Instalar o Json Server
+# Iniciar o Json Server
 $ yarn server 
 ou
 $ npm run server 
